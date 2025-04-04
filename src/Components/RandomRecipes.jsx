@@ -10,13 +10,13 @@ export default function ({ RandomRecipesData }) {
         {RandomRecipesData?.vegetarian ? (
           <img
           className="absolute left-2 top-2 h-5 w-5 object-cover"
-          src=".\src\\assets\\veg-icon.png"
+          src="https://lxjlasbebzfrcridpgjy.supabase.co/storage/v1/object/public/images/assets/veg-icon.png"
           alt="veg icon"
           />
         ) : (
           <img
           className="absolute left-2 top-2 h-5 w-5 object-cover"
-          src=".\src\\assets\\non-veg-icon.png"
+          src="https://lxjlasbebzfrcridpgjy.supabase.co/storage/v1/object/public/images/assets/non-veg-icon.png"
           alt="non-veg icon"
           />
         )}

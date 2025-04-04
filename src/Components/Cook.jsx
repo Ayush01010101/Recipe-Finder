@@ -32,7 +32,7 @@ export default function ({ data }) {
               <p>{data.title}</p>
 
               <img
-                src={data.vegetarian ? VegIcon : NonVegIcon}
+                src={data.vegetarian ? 'https://lxjlasbebzfrcridpgjy.supabase.co/storage/v1/object/public/images/assets/veg-icon.png' : "https://lxjlasbebzfrcridpgjy.supabase.co/storage/v1/object/public/images/assets/non-veg-icon.png"}
                 alt="foodimage"
                 className="h-5 w-5 object-cover"
               />
