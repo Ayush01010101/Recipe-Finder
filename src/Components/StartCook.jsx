@@ -107,8 +107,8 @@ export default function ({ data }) {
       {/* summary section */}
       
       {CookingStage == 1 && (
-        <div className="w-full min-h-full overflow-x-hidden overflow-y-auto flex justify-center flex-col fade-in-animation items-center">
-          <div className="p-5 md:w-[50%] mt-5 shadow-2xl flex gap-7 flex-col items-center min-h-[50%] m-5 rounded-2xl">
+        <div className="w-full h-full overflow-x-hidden overflow-y-auto flex  flex-col flex-wrap fade-in-animation items-center">
+          <div className=" card p-3 md:w-[50%] mt-3 shadow-xl flex gap-7 flex-col items-center min-h-[50%]  m-3 rounded-2xl">
             <h1 className="text-3xl font-medium text-center  w-full">
               Summary of recipe
             </h1>

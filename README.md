@@ -1,21 +1,10 @@
 # Recipe Finder Web Application
 
-<div style="display: flex; gap: 20px; flex-wrap: wrap; overflow-x: auto; padding: 20px 0;">
-  <img src="https://lxjlasbebzfrcridpgjy.supabase.co/storage/v1/object/public/images/Images/Homepage.png" 
-       alt="Project Screenshot" 
-       style=" height: 300px; width: auto; object-fit: contain; flex-shrink: 0; border-radius: 8px;" />
-
-  <img src="https://lxjlasbebzfrcridpgjy.supabase.co/storage/v1/object/public/images/Images/CookPage.png" 
-       alt="Search Demo" 
-       style="height: 300px; width: auto; object-fit: contain; flex-shrink: 0;  border-radius: 8px;" />
-
-  <img src="https://lxjlasbebzfrcridpgjy.supabase.co/storage/v1/object/public/images/Images/ProfilePage.png" 
-       alt="Profile Page" 
-       style="height: 300px; width: auto; object-fit: contain; flex-shrink: 0; border-radius: 8px;" />
-
-  <img src="https://lxjlasbebzfrcridpgjy.supabase.co/storage/v1/object/public/images/Images/Search.png" 
-       alt="Search Page" 
-       style="height: 300px; width: auto; object-fit: contain; flex-shrink: 0; border-radius: 8px;" />
+<div style="overflow-x: auto; white-space: nowrap; padding: 20px 0;">
+  <img src="https://lxjlasbebzfrcridpgjy.supabase.co/storage/v1/object/public/images/Images/Homepage.png" style="display: inline-block; height: 300px; margin-right: 20px;" />
+  <img src="https://lxjlasbebzfrcridpgjy.supabase.co/storage/v1/object/public/images/Images/CookPage.png" style="display: inline-block; height: 300px; margin-right: 20px;" />
+  <img src="https://lxjlasbebzfrcridpgjy.supabase.co/storage/v1/object/public/images/Images/ProfilePage.png" style="display: inline-block; height: 300px; margin-right: 20px;" />
+  <img src="https://lxjlasbebzfrcridpgjy.supabase.co/storage/v1/object/public/images/Images/Search.png" style="display: inline-block; height: 300px;" />
 </div>
 
 A modern recipe discovery platform built with React.js and Tailwind CSS, integrating Supabase for authentication/storage and Spoonacular API for recipe data.
