@@ -26,9 +26,7 @@ export default function Homepage() {
             Setismount(true)
             setIsUserLoggedIn(true);
             
-            if(localStorage.getItem('Userid')){
-              localStorage.removeItem("Userid")
-            }
+           
             
             localStorage.setItem('Userid',JSON.stringify(data.user.id))
             

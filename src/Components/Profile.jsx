@@ -11,6 +11,7 @@ export default function ({total_count}) {
     const HandleClick=async()=>{
         try {
             await Supabase.Logout()
+            localStorage.removeItem("Userid")
             navigation('/')
             window.location.reload()
         } catch (error) {
