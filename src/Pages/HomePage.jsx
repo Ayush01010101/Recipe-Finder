@@ -25,11 +25,14 @@ export default function Homepage() {
           if (data?.user?.user_metadata?.email_verified) {
             Setismount(true)
             setIsUserLoggedIn(true);
-           
-          
-            localStorage.clear()
-            Supabase.InsertUser(data?.user?.email)
+            
+            if(localStorage.getItem('Userid')){
+              localStorage.removeItem("Userid")
+            }
+            
             localStorage.setItem('Userid',JSON.stringify(data.user.id))
+            
+            Supabase.InsertUser(data?.user?.email)
               
             
 
