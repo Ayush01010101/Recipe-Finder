@@ -27,9 +27,9 @@ export default function Homepage() {
             setIsUserLoggedIn(true);
            
           
-              localStorage.setItem('Userid',JSON.stringify(data.user.id))
-  
-              Supabase.InsertUser(data?.user?.email)
+            localStorage.clear()
+            Supabase.InsertUser(data?.user?.email)
+            localStorage.setItem('Userid',JSON.stringify(data.user.id))
               
             
 
